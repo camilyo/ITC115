@@ -1,0 +1,72 @@
+//Camila Christensen
+//Andy Fessel
+
+
+import java.util.*;
+public class Walk {
+
+	public static void main(String[] args) {
+		
+		Random rand = new Random();
+		
+		randomWalk(rand);
+	}
+	
+	public static void randomWalk(Random rand) {
+		
+		int position = 0;
+		int max = 0;
+		int min = 0;
+		int total = 0;
+		
+		
+		do {
+			
+			position = rand.nextInt(2);
+		
+	
+			if (position == 1) {
+				position++;
+				total = total +1;
+			}if(total > max) {
+				 max = total;
+			}else if  (position == 0 ) {
+				position--;	
+				total = total -1;
+			}
+		
+			System.out.println("position = " + total);
+			
+			
+		}while(total < 3 && total > -3); 
+		
+			System.out.println("max position = " + max);
+		
+		
+		
+		
+			//System.out.println("position = " + position);
+		
+		
+			//
+			//}
+		
+		
+			
+			//if (position < min) {
+				// min = position;
+			//}
+		
+			//if (position > max) {
+				//max = position;
+				
+			}
+		
+		
+		}
+		//System.out.println("max position = " + max);
+		
+
+//}
+	
+		
