@@ -1,5 +1,5 @@
 
-public abstract class Ticket implements Events {
+public abstract class Ticket {
 	
 	
 	
