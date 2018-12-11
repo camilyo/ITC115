@@ -1,9 +1,9 @@
 
-public class EventMain {
+public class TicketMain {
 
 	public static void main(String[] args) {
 				
-		Events[] tickets = new Events[3];
+		Ticket[] tickets = new Ticket[3];
 		tickets[0] = new WalkUp();
 		tickets[1] = new Advance();
 		tickets[2] = new StudentAdvance();
