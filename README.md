@@ -1,2 +1,3 @@
-# ITC115
-Homework for ITC115 class
+# java-beginner
+
+Practing simple java code 
